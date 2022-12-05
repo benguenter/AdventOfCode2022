@@ -4,6 +4,7 @@ use std::{
     path::Path,
 };
 
+#[allow(dead_code)]
 pub fn main() {
     if let Ok(contents) = read_file("./input.txt") {
         let mut calorie_groups: Vec<i32> = contents
